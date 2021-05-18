@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SerenityBDD1/src/test/java/net/serenitybdd/example/steps/NavigationUser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SerenityBDD1/src/test/java/net/serenitybdd/example/ui/CategoryNavigationBar.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/serenity.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/features/navigation/FillWishFormWithEmptyName.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/features/navigation/PreparingWish.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/features/navigation/WhenBrowsingWish.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/features/navigation/WhenComeInWishTimeWithoutAuthorize.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/model/Address.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/model/HeaderWish.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/model/RegisteredUser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/model/Wish.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/steps/NavigationUser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/CheckIfThereIsAWish.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/CheckIfThereIsWish.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/CheckingCorrectCreatedWish.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/CheckingCorrectCtreatedWish.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/CreateWish.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/DeleteWish.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/DonateInWish.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/FillWishForm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/FillWishFormWithEmptyCategory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/FillWishFormWithEmptyFullName.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/FillWishFormWithEmptyLink.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/FillWishFormWithEmptyName.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/FillWishFormWithEmptyPrice.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/FillWishFormWithNotValidData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/HeaderWish.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/LogIn.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/LogOut.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/LogOutFromFacebook.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/NavigateTo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/NavigateToDonate.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/NavigateToEditWish.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/NavigateToPreModeration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/NavigateToWishList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/admin/AdminLogOut.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/admin/ApproveWish.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/fill/FillWishForm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/fill/FillWishFormWithEmptyCategory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/fill/FillWishFormWithEmptyFullName.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/fill/FillWishFormWithEmptyLink.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/fill/FillWishFormWithEmptyName.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/fill/FillWishFormWithEmptyPhone.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/fill/FillWishFormWithEmptyPrice.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/fill/FillWishFormWithNotValidData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/tasks/fill/FillWishFormWithNotValidLink.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/ui/AdminPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/ui/CurrentPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/ui/FacebookLogInPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/ui/FacebookPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/ui/HeaderBar.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/ui/HeaderNavigationBar.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/ui/LogInBar.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/ui/NavigationBar.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/ui/WishFormPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/wishtime/yukon/ui/WishTimeHomePage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/serenity.config">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/serenity.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
