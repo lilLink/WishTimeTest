@@ -50,6 +50,57 @@ public class WhenBrowsingWish {
     }
 
     @Test
+    @Ignore
+    public void shouldBeAbleToDonateInWish(){
+        when(person).attemptsTo(NavigateToDonate.navigateToDonate());
+
+        then(person).attemptsTo(DonateInWish.donate(sum));
+
+        then(person).should(seeThat(WebElementQuestion.the(NavigationBar.successDonate()),
+                WebElementStateMatchers.containsText("Дякуємо за пожертвування")));
+    }
+
+    @Test
+    public void shouldBeNotAbleToCreateWithEmptyLinkAWish(){
+        when(person).attemptsTo(CreateWish.create("Створити бажання"));
+
+        then(person).attemptsTo(FillWishFormWithEmptyLink.fillForm(wish));
+
+        then(person).should(seeThat(WebElementQuestion.the(WishFormPage.saveWish()),
+                WebElementStateMatchers.isNotEnabled()));
+    }
+
+    @Test
+    public void shouldBeNotAbleToCreateWithEmptyPriceAWish(){
+        when(person).attemptsTo(CreateWish.create("Створити бажання"));
+
+        then(person).attemptsTo(FillWishFormWithEmptyPrice.fillForm(wish));
+
+        then(person).should(seeThat(WebElementQuestion.the(WishFormPage.saveWish()),
+                WebElementStateMatchers.isNotEnabled()));
+    }
+
+    @Test
+    public void shouldBeNotAbleToCreateWithEmptyFullNameAWish(){
+        when(person).attemptsTo(CreateWish.create("Створити бажання"));
+
+        then(person).attemptsTo(FillWishFormWithEmptyFullName.fillForm(wish));
+
+        then(person).should(seeThat(WebElementQuestion.the(WishFormPage.saveWish()),
+                WebElementStateMatchers.isNotEnabled()));
+    }
+
+    @Test
+    public void shouldBeNotAbleToCreateWithEmptyPhoneAWish(){
+        when(person).attemptsTo(CreateWish.create("Створити бажання"));
+
+        then(person).attemptsTo(FillWishFormWithEmptyPhone.fillForm(wish));
+
+        then(person).should(seeThat(WebElementQuestion.the(WishFormPage.saveWish()),
+                WebElementStateMatchers.isNotEnabled()));
+    }
+
+        @Test
     public void shouldBeAbleToCreateAndEditAWish(){
 
         when(person).attemptsTo(CreateWish.create("Створити бажання"));
