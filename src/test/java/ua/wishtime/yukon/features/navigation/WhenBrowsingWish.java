@@ -133,4 +133,35 @@ public class WhenBrowsingWish {
         then(person).should(seeThat(WebElementQuestion.the(WishFormPage.saveWish()),
                 WebElementStateMatchers.isNotEnabled()));
     }
+
+    @Test
+    @Ignore
+    public void shouldBeNotAbleToDonateWithEmptyAmountInWish(){
+        when(person).attemptsTo(NavigateToDonate.navigateToDonate());
+
+        then(person).should(seeThat(WebElementQuestion.the(NavigationBar.buttonDonate()),
+                WebElementStateMatchers.isNotEnabled()));
+    }
+
+    @Test
+    public void shouldBeNotAbleToCreateWithEmptyCategoryAWish(){
+        when(person).attemptsTo(CreateWish.create("Створити бажання"));
+
+        then(person).attemptsTo(FillWishFormWithEmptyCategory.fillForm(wish));
+
+        then(person).should(seeThat(WebElementQuestion.the(WishFormPage.saveWish()),
+                WebElementStateMatchers.isNotEnabled()));
+    }
+
+    @Test
+    public void shouldBeNotAbleToCreateWithEmptyNameAWish(){
+        when(person).attemptsTo(CreateWish.create("Створити бажання"));
+
+        then(person).attemptsTo(FillWishFormWithEmptyName.fillForm(wish));
+
+        then(person).should(seeThat(WebElementQuestion.the(WishFormPage.saveWish()),
+                WebElementStateMatchers.isNotEnabled()));
+    }
+
+
 }
